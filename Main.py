@@ -19,6 +19,6 @@ def napechate(i):
     file = open(outfilename, mode='w+', encoding='utf-8')
 
 
-for item in myUserJson:
-    napechate(item)
+for i, word in enumerate(myUserJson):
+    napechate(i)
 
