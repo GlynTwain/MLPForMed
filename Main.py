@@ -10,10 +10,15 @@ todos_json = requests.get("https://json.medrating.org/todos")
 user_json = requests.get("https://json.medrating.org/users")
 
 myUserJson = json.loads(user_json.text)
-print(myUserJson[3]["name"])
+#print(myUserJson[3]["name"])
 
 
-def napechate():
+def napechate(i):
     """Сформировать файл"""
-    outfilename = myUserJson[1]["name"] + ".txt"
-    file = open(myUserJson[1]["name"], mode='w+', encoding='utf-8')
+    outfilename = folderName + "/" + myUserJson[i]["name"] + ".txt"
+    file = open(outfilename, mode='w+', encoding='utf-8')
+
+
+for item in myUserJson:
+    napechate(item)
+
