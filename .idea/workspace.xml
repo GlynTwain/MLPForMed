@@ -5,15 +5,25 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks/Antonette.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Antonette.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/Antonette_17-03-2020 21-17.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks/Bret.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Bret.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/Bret_17-03-2020 21-17.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks/Delphine.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Delphine.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/Delphine_17-03-2020 21-17.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks/Elwyn.Skiles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Elwyn.Skiles.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/Elwyn.Skiles_17-03-2020 21-17.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks/Kamren.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Kamren.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/Kamren_17-03-2020 21-17.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks/Karianne.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Karianne.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/Karianne_17-03-2020 21-17.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks/Leopoldo_Corkery.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Leopoldo_Corkery.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/Leopoldo_Corkery_17-03-2020 21-17.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks/Maxime_Nienow.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Maxime_Nienow.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/Maxime_Nienow_17-03-2020 21-17.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks/Moriah.Stanton.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Moriah.Stanton.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/Moriah.Stanton_17-03-2020 21-17.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks/Samantha.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/Samantha.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/Samantha_17-03-2020 21-17.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,25 +113,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1515" height="230" key="GridCell.Tab.0.bottom" timestamp="1584469311908">
+    <state width="1515" height="230" key="GridCell.Tab.0.bottom" timestamp="1584469625262">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="230" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1440.900@0.0.1536.864" timestamp="1584469311908" />
+    <state width="1515" height="230" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1440.900@0.0.1536.864" timestamp="1584469625262" />
     <state width="1515" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584131867737" />
-    <state width="1515" height="230" key="GridCell.Tab.0.center" timestamp="1584469311908">
+    <state width="1515" height="230" key="GridCell.Tab.0.center" timestamp="1584469625261">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="230" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1440.900@0.0.1536.864" timestamp="1584469311908" />
+    <state width="1515" height="230" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1440.900@0.0.1536.864" timestamp="1584469625261" />
     <state width="1515" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584131867737" />
-    <state width="1515" height="230" key="GridCell.Tab.0.left" timestamp="1584469311907">
+    <state width="1515" height="230" key="GridCell.Tab.0.left" timestamp="1584469625261">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="230" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1440.900@0.0.1536.864" timestamp="1584469311907" />
+    <state width="1515" height="230" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1440.900@0.0.1536.864" timestamp="1584469625261" />
     <state width="1515" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584131867736" />
-    <state width="1515" height="230" key="GridCell.Tab.0.right" timestamp="1584469311908">
+    <state width="1515" height="230" key="GridCell.Tab.0.right" timestamp="1584469625261">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="230" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1440.900@0.0.1536.864" timestamp="1584469311908" />
+    <state width="1515" height="230" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1440.900@0.0.1536.864" timestamp="1584469625261" />
     <state width="1515" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584131867737" />
     <state x="465" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1584381175673">
       <screen x="0" y="0" width="1536" height="864" />
