@@ -9,7 +9,7 @@ folderName: str = "tasks"
 if not os.path.exists(folderName):
     os.mkdir(folderName)
 
-#todos_json = requests.get("https://json.medrating.org/todos")
+todos_json = requests.get("https://json.medrating.org/todos")
 user_json = requests.get("https://json.medrating.org/users")
 myUserJson = json.loads(user_json.text)
 
@@ -39,18 +39,23 @@ def modification_date(filename):
     t = os.path.getmtime(filename)
     return datetime.datetime.fromtimestamp(t).strftime("%d.%m.%Y %I:%M")
 
-def napechate(i):
-    """Сформировать файл"""
-    outfilename = folderName + "/" + myUserJson[i]["name"] + ".txt"
+def create_file(user):
+    """Метод создания файлов"""
+    name_file = folderName + "/" + user["username"] + ".txt"
 
-    if os.path.exists(outfilename):
-        date = str(modification_date(outfilename))
-        print(outfilename + " - Создан - дата: " + date)
-        new_name = folderName + "/" + myUserJson[i]["name"]+"_"+modification_date_for_rename(outfilename)+ ".txt"
-        os.rename(outfilename, new_name)
-    else:
-        file = open(outfilename, mode='w+', encoding='utf-8')
+    if os.path.exists(name_file):
+        new_name = folderName + "/" + user["username"]+"_"+modification_date_for_rename(name_file)+ ".txt"
+        os.rename(name_file, new_name)
 
+    if not os.path.exists(name_file):
+        filling(user,name_file)
 
-for i, word in enumerate(myUserJson):
-    napechate(i)
+def filling(user,name_file):
+
+    file = open(name_file, mode='w+', encoding='utf-8')
+    file.write(user["name"] + " <"+user["email"]+"> "+ modification_date(name_file) + '\n')
+    file.write(user["company"]["name"] + '\n'+'\n')
+    file.close()
+
+for user_from_base in myUserJson:
+    create_file(user_from_base)
