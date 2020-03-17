@@ -1,8 +1,6 @@
 import json
 import requests
 import os
-import platform
-import time
 import datetime
 
 folderName: str = "tasks"
@@ -10,9 +8,9 @@ if not os.path.exists(folderName):
     os.mkdir(folderName)
 
 todos_json = requests.get("https://json.medrating.org/todos")
-myTodosJson = json.loads(todos_json.text)
+todos_base_text = json.loads(todos_json.text)
 user_json = requests.get("https://json.medrating.org/users")
-myUserJson = json.loads(user_json.text)
+users_base_text = json.loads(user_json.text)
 
 
 def creation_date(name_file):
@@ -62,7 +60,7 @@ def filling(user, name_file):
 def work_todos(user_Id, file, text_print, completed):
     """Служит для выписывания задач завершенных/оставшихся в зависимости от параметров"""
     file.write('\n' + text_print + '\n')
-    for todos_from_base in myTodosJson:
+    for todos_from_base in todos_base_text:
         if user_Id == todos_from_base["userId"] and todos_from_base["completed"] == completed:
             task = todos_from_base["title"]
             if len(task) >= 51:
@@ -71,5 +69,5 @@ def work_todos(user_Id, file, text_print, completed):
                 file.write(task + '\n')
 
 
-for user_from_base in myUserJson:
+for user_from_base in users_base_text:
     create_file(user_from_base)
